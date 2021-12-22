@@ -23,9 +23,13 @@ footer {
 .navbar {
   background-color: white; 
 }
+.navbar-nav > li{
+  padding-left:50px;
+  padding-right:50px;
+}
 
 .site-footer {
-  background-color:white);
+  background-color:white ;
   padding: 20px 0; }
 
 a, a:hover {
@@ -43,3 +47,8 @@ a, a:hover {
   right: 0;
   bottom: 0;
   z-index: 100; }
+
+  .img-responsive {
+    width: auto;
+    height: 100px;
+}
