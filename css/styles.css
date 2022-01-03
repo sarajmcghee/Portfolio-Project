@@ -2,18 +2,23 @@ body {
   font-family: "Open Sans", sans-serif; }
 
 h1, h2, h3 {
-  font-family: "Open Sans", sans-serif, }
+  font-family: "Open Sans", sans-serif; }
 
 h2 {
-  color: #ffffff; }
+  color: black; }
 
 header h2 {
-  color: #ffffff; }
+  color: white; }
 
 footer {
   background-color: white;
   padding: 20px 0; }
 
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, white, black, white);
+  color: white; }
 
 .row-content {
   padding: 50px 0;
@@ -21,15 +26,14 @@ footer {
   min-height: 200px; }
 
 .navbar {
-  background-color: white; 
-}
-.navbar-nav > li{
-  padding-left:50px;
-  padding-right:50px;
-}
+  background-color: white; }
+
+.navbar-nav > li {
+  padding-left: 50px;
+  padding-right: 50px; }
 
 .site-footer {
-  background-color:white ;
+  background-image: linear-gradient(white, white);
   padding: 20px 0; }
 
 a, a:hover {
@@ -40,7 +44,7 @@ a, a:hover {
   background-color: rgba(0, 0, 0, 0.5); }
 
 .carousel {
-  border: solid white }
+  border: solid white; }
 
 #carouselButton {
   position: absolute;
@@ -48,7 +52,23 @@ a, a:hover {
   bottom: 0;
   z-index: 100; }
 
-  .img-responsive {
-    width: auto;
-    height: 100px;
-}
+#loginModal .modal-header {
+  background-color: white;
+  color: white; }
+
+#reserveModal .modal-header {
+  background-color: white;
+  color: white; }
+
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0; }
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute; }

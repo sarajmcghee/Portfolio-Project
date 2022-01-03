@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- endbuild -->
+    <title>McGhee's Eatery</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm sticky-top">
+        <div class="container">
+            <div class="row row-content">
+                <a class="navbar-brand " href="index.html">McGhee's Eatery</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mcgheesNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mcgheesNavbar">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active"><a class="nav-link" href="order.html">Order</a></li>
+                        <li class="nav-item"><a class="nav-link" href="reservations.html">Reservations</a></li>
+                        <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contactus.html">Contact</a></li>
+                        <li class="nav-item">
+                            <div class="input-group">
+                                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                                aria-describedby="search-addon" />
+                                <button type="button" class="btn btn-outline-secondary">search</button>
+                              </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row row-content">
+            <div class="col-12 align-center">
+                <h3>Featured</h3>
+            </div>
+            <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <div class="col-md-12 mx-auto">
+
+                <div id="homeCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#homeCarousel" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container-fluid content-row">
+                                <div class="row">
+                                    <div class="col-lg-4 d-flex">
+                                        <div class="card">
+                                            <img class="img-fluid" src="img/carousel1.jpg" class="card-img-top"
+                                                alt="Waterfall" />
+                                            <div class="card-body">
+                                                <h4 class="card-title"></h4>
+                                                <p class="card-text">
+                                                </p>
+                                                <div class="col text-center">
+                                                    <a class="btn btn-lg btn-secondary" href="#reserveForm"
+                                                        role="button">Order Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 d-flex">
+                                        <div class="card">
+                                            <img class="img-fluid" src="img/carousel2.jpg" class="card-img-top"
+                                                alt="Waterfall" />
+                                            <div class="card-body">
+                                                <h4 class="card-title"></h4>
+                                                <p class="card-text">
+                                                </p>
+                                                <div class="col text-center">
+                                                    <a class="btn btn-lg btn-secondary" href="#reserveForm"
+                                                        role="button">Order Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 d-flex">
+                                        <div class="card">
+                                            <img class="img-fluid" src="img/carousel3.jpg" class="card-img-top"
+                                                alt="Waterfall" />
+                                            <div class="card-body">
+                                                <h4 class="card-title"></h4>
+                                                <p class="card-text">
+                                                </p>
+                                                <div class="col text-center">
+                                                    <a class="btn btn-lg btn-secondary" href="#reserveForm"
+                                                        role="button">Order Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container-fluid content-row">
+                                <div class="row">
+                                    <div class="col-lg-4 d-flex">
+                                        <div class="card">
+                                            <img class="img-fluid" src="img/carousel4.jpg" class="card-img-top"
+                                                alt="Waterfall" />
+                                            <div class="card-body">
+                                                <h4 class="card-title"></h4>
+                                                <p class="card-text">
+                                                </p>
+                                                <div class="col text-center">
+                                                    <a class="btn btn-lg btn-secondary" href="#reserveForm"
+                                                        role="button">Order Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 d-flex">
+                                        <div class="card">
+                                            <img class="img-fluid" src="img/carousel5.jpg" class="card-img-top"
+                                                alt="Waterfall" />
+                                            <div class="card-body">
+                                                <h4 class="card-title"></h4>
+                                                <p class="card-text">
+                                                </p>
+                                                <div class="col text-center">
+                                                    <a class="btn btn-lg btn-secondary" href="#reserveForm"
+                                                        role="button">Order Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-4 d-flex">
+                                        <div class="card">
+                                            <img class="img-fluid" src="img/carousel5.jpg" class="card-img-top"
+                                                alt="Waterfall" />
+                                            <div class="card-body">
+                                                <h4 class="card-title"></h4>
+                                                <p class="card-text">
+                                                </p>
+                                                <div class="col text-center">
+                                                    <a class="btn btn-lg btn-secondary" href="#reserveForm"
+                                                        role="button">Order Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="#">Sites</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <a href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a role="button" class="btn btn-link" href="tel:+14235551234"><i
+                            class="fa fa-phone fa-lg text-primary"></i> 1-423-555-1234</a><br />
+                    <a role="button" class="btn btn-link" href="mailto:mcgheeseatery@gmail.com"><i
+                            class="fa fa-envelope-o fa-lg text-primary"></i> mcgheeseatery@gmail.com</a>
+                </div>
+        </div>
+    </footer>
+
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- endbuild -->
+
+</body>
+
+</html>
